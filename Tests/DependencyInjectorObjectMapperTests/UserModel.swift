@@ -20,14 +20,13 @@ class UserModel: User, Mappable {
         self.address = address
     }
 
-    public required init?(map: Map) {
+    public convenience required init?(map: Map) {
         guard
             let id: String = try? map.value("id"),
             let address: Address = try? map.injectedValue("address") else {
                 return nil
         }
-        self.id = id
-        self.address = address
+        self.init(id: id, address: address)
     }
 
     public func mapping(map: Map) {
