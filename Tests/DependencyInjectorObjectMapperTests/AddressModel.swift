@@ -19,13 +19,11 @@ class AddressModel: Address, Mappable {
         self.country = country
     }
 
-    public required init?(map: Map) {
+    public convenience required init?(map: Map) {
         guard let street: String = try? map.value("street"), let zipCode: String = try? map.value("zipCode"), let country: String = try? map.value("country") else {
             return nil
         }
-        self.street = street
-        self.zipCode = zipCode
-        self.country = country
+        self.init(street: street, zipCode: zipCode, country: country)
     }
 
     public func mapping(map: Map) {
