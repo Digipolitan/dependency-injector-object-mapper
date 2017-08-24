@@ -1,0 +1,1505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13012D9758E435853A0C9DC7 /* Pods_Tests_DependencyInjectorObjectMapperTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5CCAF40A003519274DAFB7 /* Pods_Tests_DependencyInjectorObjectMapperTests_tvOS.framework */; };
+		43A8CC0E126D1496683B142B /* Pods_Tests_DependencyInjectorObjectMapperTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53343B809BC9DB06786FA9B3 /* Pods_Tests_DependencyInjectorObjectMapperTests_iOS.framework */; };
+		44D59EFE4A9AC247A90B0C18 /* Pods_Frameworks_DependencyInjectorObjectMapper_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B9889E735EC93EE573A66 /* Pods_Frameworks_DependencyInjectorObjectMapper_OSX.framework */; };
+		65A500DAA74392343B8050F2 /* Pods_Frameworks_DependencyInjectorObjectMapper_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0506CC1C5471FEFC71C97A /* Pods_Frameworks_DependencyInjectorObjectMapper_iOS.framework */; };
+		A3169DBA1DE05E8300BABAFD /* DependencyInjectorObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* DependencyInjectorObjectMapper.framework */; };
+		A3169DF81DE0718900BABAFD /* DependencyInjectorObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* DependencyInjectorObjectMapper.framework */; };
+		A3169E151DE072C800BABAFD /* DependencyInjectorObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* DependencyInjectorObjectMapper.framework */; };
+		A3169E761DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DependencyInjectorObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3169E771DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DependencyInjectorObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3169E781DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DependencyInjectorObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3169E791DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DependencyInjectorObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A38EF2CA1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */; };
+		A38EF2CB1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */; };
+		A38EF2CC1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */; };
+		A3B8AA371F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
+		A3B8AA381F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
+		A3B8AA391F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
+		A3B8AA3A1F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
+		A3B8AA3B1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA351F4DCBB90086EFC2 /* InjectorTransformer.swift */; };
+		A3B8AA3C1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA351F4DCBB90086EFC2 /* InjectorTransformer.swift */; };
+		A3B8AA3D1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA351F4DCBB90086EFC2 /* InjectorTransformer.swift */; };
+		A3B8AA3E1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA351F4DCBB90086EFC2 /* InjectorTransformer.swift */; };
+		A3B8AA3F1F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA361F4DCBB90086EFC2 /* Provider+ObjectMapper.swift */; };
+		A3B8AA401F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA361F4DCBB90086EFC2 /* Provider+ObjectMapper.swift */; };
+		A3B8AA411F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA361F4DCBB90086EFC2 /* Provider+ObjectMapper.swift */; };
+		A3B8AA421F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA361F4DCBB90086EFC2 /* Provider+ObjectMapper.swift */; };
+		A3B8AA441F4DCCA90086EFC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA431F4DCCA90086EFC2 /* User.swift */; };
+		A3B8AA451F4DCCA90086EFC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA431F4DCCA90086EFC2 /* User.swift */; };
+		A3B8AA461F4DCCA90086EFC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA431F4DCCA90086EFC2 /* User.swift */; };
+		A3B8AA481F4DCCB30086EFC2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA471F4DCCB30086EFC2 /* Address.swift */; };
+		A3B8AA491F4DCCB30086EFC2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA471F4DCCB30086EFC2 /* Address.swift */; };
+		A3B8AA4A1F4DCCB30086EFC2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA471F4DCCB30086EFC2 /* Address.swift */; };
+		A3B8AA4C1F4DCCBA0086EFC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA4B1F4DCCBA0086EFC2 /* UserModel.swift */; };
+		A3B8AA4D1F4DCCBA0086EFC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA4B1F4DCCBA0086EFC2 /* UserModel.swift */; };
+		A3B8AA4E1F4DCCBA0086EFC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA4B1F4DCCBA0086EFC2 /* UserModel.swift */; };
+		A3B8AA501F4DCD070086EFC2 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA4F1F4DCD070086EFC2 /* AddressModel.swift */; };
+		A3B8AA511F4DCD070086EFC2 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA4F1F4DCD070086EFC2 /* AddressModel.swift */; };
+		A3B8AA521F4DCD070086EFC2 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA4F1F4DCD070086EFC2 /* AddressModel.swift */; };
+		A3B8AA541F4DCD170086EFC2 /* DefaultModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA531F4DCD170086EFC2 /* DefaultModule.swift */; };
+		A3B8AA551F4DCD170086EFC2 /* DefaultModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA531F4DCD170086EFC2 /* DefaultModule.swift */; };
+		A3B8AA561F4DCD170086EFC2 /* DefaultModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA531F4DCD170086EFC2 /* DefaultModule.swift */; };
+		A3B8AA581F4ECE830086EFC2 /* Map+DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA571F4ECE830086EFC2 /* Map+DependencyInjector.swift */; };
+		DE48C845BAC55C172AE55C61 /* Pods_Frameworks_DependencyInjectorObjectMapper_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D45C70293163126D3137D5 /* Pods_Frameworks_DependencyInjectorObjectMapper_tvOS.framework */; };
+		E3588014568CFD0F63D7E1F9 /* Pods_Frameworks_DependencyInjectorObjectMapper_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336DBE82580AB556D39E24EB /* Pods_Frameworks_DependencyInjectorObjectMapper_watchOS.framework */; };
+		FC2858C11413B883FFF2CDD9 /* Pods_Tests_DependencyInjectorObjectMapperTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4EF065A7803C3DC43727D6 /* Pods_Tests_DependencyInjectorObjectMapperTests_OSX.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3169DBB1DE05E8300BABAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3169DA71DE05E8300BABAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3169DAF1DE05E8300BABAFD;
+			remoteInfo = DependencyInjectorObjectMapper;
+		};
+		A3169DF91DE0718900BABAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3169DA71DE05E8300BABAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3169DEE1DE0718900BABAFD;
+			remoteInfo = DependencyInjectorObjectMapper;
+		};
+		A3169E161DE072C800BABAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3169DA71DE05E8300BABAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3169E0B1DE072C700BABAFD;
+			remoteInfo = DependencyInjectorObjectMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121CE63DEA1F9F7BE34F7C2A /* Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4EF065A7803C3DC43727D6 /* Pods_Tests_DependencyInjectorObjectMapperTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DependencyInjectorObjectMapperTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336DBE82580AB556D39E24EB /* Pods_Frameworks_DependencyInjectorObjectMapper_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DependencyInjectorObjectMapper_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3781EF40D354030A6E0F2336 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DependencyInjectorObjectMapperTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		37D45C70293163126D3137D5 /* Pods_Frameworks_DependencyInjectorObjectMapper_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DependencyInjectorObjectMapper_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DA6CC76A555CCF6A3C6210 /* Pods-Frameworks-DependencyInjectorObjectMapper-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-iOS/Pods-Frameworks-DependencyInjectorObjectMapper-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		53343B809BC9DB06786FA9B3 /* Pods_Tests_DependencyInjectorObjectMapperTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DependencyInjectorObjectMapperTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6871BB3B9AAE11FBF9EAAD28 /* Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		7A5CCAF40A003519274DAFB7 /* Pods_Tests_DependencyInjectorObjectMapperTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DependencyInjectorObjectMapperTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4280FEB351FF923C8F7D6B /* Pods-Frameworks-DependencyInjectorObjectMapper-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-OSX/Pods-Frameworks-DependencyInjectorObjectMapper-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		98C3B8F6A46232CBE82D7AB9 /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A18E67EAE1AEE9769488B8D8 /* Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		A3169DB01DE05E8300BABAFD /* DependencyInjectorObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependencyInjectorObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DB91DE05E8300BABAFD /* DependencyInjectorObjectMapperTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DependencyInjectorObjectMapperTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3169DD11DE062A000BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3169DDE1DE06EF400BABAFD /* DependencyInjectorObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependencyInjectorObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DEF1DE0718900BABAFD /* DependencyInjectorObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependencyInjectorObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169DF71DE0718900BABAFD /* DependencyInjectorObjectMapperTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DependencyInjectorObjectMapperTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169E0C1DE072C700BABAFD /* DependencyInjectorObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependencyInjectorObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169E141DE072C800BABAFD /* DependencyInjectorObjectMapperTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DependencyInjectorObjectMapperTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3169E751DE083D900BABAFD /* DependencyInjectorObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DependencyInjectorObjectMapper.h; sourceTree = "<group>"; };
+		A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjectorObjectMapperTests.swift; sourceTree = "<group>"; };
+		A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Binder+ObjectMapper.swift"; sourceTree = "<group>"; };
+		A3B8AA351F4DCBB90086EFC2 /* InjectorTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectorTransformer.swift; sourceTree = "<group>"; };
+		A3B8AA361F4DCBB90086EFC2 /* Provider+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Provider+ObjectMapper.swift"; sourceTree = "<group>"; };
+		A3B8AA431F4DCCA90086EFC2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A3B8AA471F4DCCB30086EFC2 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		A3B8AA4B1F4DCCBA0086EFC2 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A3B8AA4F1F4DCD070086EFC2 /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		A3B8AA531F4DCD170086EFC2 /* DefaultModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultModule.swift; sourceTree = "<group>"; };
+		A3B8AA571F4ECE830086EFC2 /* Map+DependencyInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Map+DependencyInjector.swift"; sourceTree = "<group>"; };
+		A93CCF480FC175F07743D64A /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DependencyInjectorObjectMapperTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		AE74BE7527A9514D7AE75838 /* Pods-Frameworks-DependencyInjectorObjectMapper-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-iOS/Pods-Frameworks-DependencyInjectorObjectMapper-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CA019E8C38EC9FB3647284BD /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DependencyInjectorObjectMapperTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		CD3B9889E735EC93EE573A66 /* Pods_Frameworks_DependencyInjectorObjectMapper_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DependencyInjectorObjectMapper_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0506CC1C5471FEFC71C97A /* Pods_Frameworks_DependencyInjectorObjectMapper_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DependencyInjectorObjectMapper_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D470D1C287AF42A642C10C6B /* Pods-Frameworks-DependencyInjectorObjectMapper-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-OSX/Pods-Frameworks-DependencyInjectorObjectMapper-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		DD9608F15704DFB1C62767D1 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DependencyInjectorObjectMapperTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F46ADDB3B707B00AAF6FF249 /* Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFFB4E5C4127E4A95CF710E /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3169DAC1DE05E8300BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A500DAA74392343B8050F2 /* Pods_Frameworks_DependencyInjectorObjectMapper_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DB61DE05E8300BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169DBA1DE05E8300BABAFD /* DependencyInjectorObjectMapper.framework in Frameworks */,
+				43A8CC0E126D1496683B142B /* Pods_Tests_DependencyInjectorObjectMapperTests_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DDA1DE06EF400BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3588014568CFD0F63D7E1F9 /* Pods_Frameworks_DependencyInjectorObjectMapper_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DEB1DE0718900BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE48C845BAC55C172AE55C61 /* Pods_Frameworks_DependencyInjectorObjectMapper_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DF41DE0718900BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169DF81DE0718900BABAFD /* DependencyInjectorObjectMapper.framework in Frameworks */,
+				13012D9758E435853A0C9DC7 /* Pods_Tests_DependencyInjectorObjectMapperTests_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E081DE072C700BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D59EFE4A9AC247A90B0C18 /* Pods_Frameworks_DependencyInjectorObjectMapper_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E111DE072C800BABAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E151DE072C800BABAFD /* DependencyInjectorObjectMapper.framework in Frameworks */,
+				FC2858C11413B883FFF2CDD9 /* Pods_Tests_DependencyInjectorObjectMapperTests_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E75AD93604005341051C5D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4280FEB351FF923C8F7D6B /* Pods-Frameworks-DependencyInjectorObjectMapper-OSX.debug.xcconfig */,
+				D470D1C287AF42A642C10C6B /* Pods-Frameworks-DependencyInjectorObjectMapper-OSX.release.xcconfig */,
+				AE74BE7527A9514D7AE75838 /* Pods-Frameworks-DependencyInjectorObjectMapper-iOS.debug.xcconfig */,
+				37DA6CC76A555CCF6A3C6210 /* Pods-Frameworks-DependencyInjectorObjectMapper-iOS.release.xcconfig */,
+				121CE63DEA1F9F7BE34F7C2A /* Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.debug.xcconfig */,
+				6871BB3B9AAE11FBF9EAAD28 /* Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.release.xcconfig */,
+				F46ADDB3B707B00AAF6FF249 /* Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.debug.xcconfig */,
+				A18E67EAE1AEE9769488B8D8 /* Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.release.xcconfig */,
+				A93CCF480FC175F07743D64A /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.debug.xcconfig */,
+				CA019E8C38EC9FB3647284BD /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.release.xcconfig */,
+				3781EF40D354030A6E0F2336 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.debug.xcconfig */,
+				DD9608F15704DFB1C62767D1 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.release.xcconfig */,
+				98C3B8F6A46232CBE82D7AB9 /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.debug.xcconfig */,
+				FFFFB4E5C4127E4A95CF710E /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3169DA61DE05E8300BABAFD = {
+			isa = PBXGroup;
+			children = (
+				A3169DCA1DE0629100BABAFD /* Sources */,
+				A3169DCF1DE062A000BABAFD /* Tests */,
+				A3169DB11DE05E8300BABAFD /* Products */,
+				3E75AD93604005341051C5D9 /* Pods */,
+				ACE872AF5C19A740B80BBF1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3169DB11DE05E8300BABAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3169DB01DE05E8300BABAFD /* DependencyInjectorObjectMapper.framework */,
+				A3169DB91DE05E8300BABAFD /* DependencyInjectorObjectMapperTests-iOS.xctest */,
+				A3169DDE1DE06EF400BABAFD /* DependencyInjectorObjectMapper.framework */,
+				A3169DEF1DE0718900BABAFD /* DependencyInjectorObjectMapper.framework */,
+				A3169DF71DE0718900BABAFD /* DependencyInjectorObjectMapperTests-tvOS.xctest */,
+				A3169E0C1DE072C700BABAFD /* DependencyInjectorObjectMapper.framework */,
+				A3169E141DE072C800BABAFD /* DependencyInjectorObjectMapperTests-OSX.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3169DCA1DE0629100BABAFD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A3169E751DE083D900BABAFD /* DependencyInjectorObjectMapper.h */,
+				A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */,
+				A3B8AA351F4DCBB90086EFC2 /* InjectorTransformer.swift */,
+				A3B8AA361F4DCBB90086EFC2 /* Provider+ObjectMapper.swift */,
+				A3B8AA571F4ECE830086EFC2 /* Map+DependencyInjector.swift */,
+				A3169DCC1DE0629100BABAFD /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A3169DCF1DE062A000BABAFD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A38EF2C61DECF97000637484 /* DependencyInjectorObjectMapperTests */,
+				A3169DD11DE062A000BABAFD /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A38EF2C61DECF97000637484 /* DependencyInjectorObjectMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */,
+				A3B8AA431F4DCCA90086EFC2 /* User.swift */,
+				A3B8AA471F4DCCB30086EFC2 /* Address.swift */,
+				A3B8AA4B1F4DCCBA0086EFC2 /* UserModel.swift */,
+				A3B8AA4F1F4DCD070086EFC2 /* AddressModel.swift */,
+				A3B8AA531F4DCD170086EFC2 /* DefaultModule.swift */,
+			);
+			path = DependencyInjectorObjectMapperTests;
+			sourceTree = "<group>";
+		};
+		ACE872AF5C19A740B80BBF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3B9889E735EC93EE573A66 /* Pods_Frameworks_DependencyInjectorObjectMapper_OSX.framework */,
+				CF0506CC1C5471FEFC71C97A /* Pods_Frameworks_DependencyInjectorObjectMapper_iOS.framework */,
+				37D45C70293163126D3137D5 /* Pods_Frameworks_DependencyInjectorObjectMapper_tvOS.framework */,
+				336DBE82580AB556D39E24EB /* Pods_Frameworks_DependencyInjectorObjectMapper_watchOS.framework */,
+				1D4EF065A7803C3DC43727D6 /* Pods_Tests_DependencyInjectorObjectMapperTests_OSX.framework */,
+				53343B809BC9DB06786FA9B3 /* Pods_Tests_DependencyInjectorObjectMapperTests_iOS.framework */,
+				7A5CCAF40A003519274DAFB7 /* Pods_Tests_DependencyInjectorObjectMapperTests_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3169E281DE07B0500BABAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E781DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E2A1DE07B3E00BABAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E791DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E631DE0804300BABAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E761DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E651DE0804D00BABAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3169E771DE083D900BABAFD /* DependencyInjectorObjectMapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3169DAF1DE05E8300BABAFD /* DependencyInjectorObjectMapper-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169DC41DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-iOS" */;
+			buildPhases = (
+				89D0E894A109E2A38AE4F1A6 /* [CP] Check Pods Manifest.lock */,
+				A3169DAB1DE05E8300BABAFD /* Sources */,
+				A3169DAC1DE05E8300BABAFD /* Frameworks */,
+				A3169DAE1DE05E8300BABAFD /* Resources */,
+				A3169DD81DE0654400BABAFD /* Swiftlint */,
+				A3169E631DE0804300BABAFD /* Headers */,
+				F90E9600949E92A399F856D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DependencyInjectorObjectMapper-iOS";
+			productName = DependencyInjectorObjectMapper;
+			productReference = A3169DB01DE05E8300BABAFD /* DependencyInjectorObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3169DB81DE05E8300BABAFD /* DependencyInjectorObjectMapperTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169DC71DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapperTests-iOS" */;
+			buildPhases = (
+				1878C08C021BB0E088329787 /* [CP] Check Pods Manifest.lock */,
+				A3169DB51DE05E8300BABAFD /* Sources */,
+				A3169DB61DE05E8300BABAFD /* Frameworks */,
+				A3169DB71DE05E8300BABAFD /* Resources */,
+				518FCCCA103247684EE6B4FE /* [CP] Embed Pods Frameworks */,
+				E46474C6C229B490F4E396C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3169DBC1DE05E8300BABAFD /* PBXTargetDependency */,
+			);
+			name = "DependencyInjectorObjectMapperTests-iOS";
+			productName = DependencyInjectorObjectMapperTests;
+			productReference = A3169DB91DE05E8300BABAFD /* DependencyInjectorObjectMapperTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3169DDD1DE06EF400BABAFD /* DependencyInjectorObjectMapper-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169DE31DE06EF400BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-watchOS" */;
+			buildPhases = (
+				3035323519F70B6C3471ED57 /* [CP] Check Pods Manifest.lock */,
+				A3169DD91DE06EF400BABAFD /* Sources */,
+				A3169DDA1DE06EF400BABAFD /* Frameworks */,
+				A3169DDC1DE06EF400BABAFD /* Resources */,
+				A3169DE71DE06FB300BABAFD /* Swiftlint */,
+				A3169E651DE0804D00BABAFD /* Headers */,
+				689144F4E8B4413DD3103C96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DependencyInjectorObjectMapper-watchOS";
+			productName = DependencyInjectorObjectMapper;
+			productReference = A3169DDE1DE06EF400BABAFD /* DependencyInjectorObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3169DEE1DE0718900BABAFD /* DependencyInjectorObjectMapper-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169E001DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-tvOS" */;
+			buildPhases = (
+				1716FB48CC2E23EF9992E297 /* [CP] Check Pods Manifest.lock */,
+				A3169DEA1DE0718900BABAFD /* Sources */,
+				A3169DEB1DE0718900BABAFD /* Frameworks */,
+				A3169DED1DE0718900BABAFD /* Resources */,
+				A3169E061DE0727A00BABAFD /* Swiftlint */,
+				A3169E281DE07B0500BABAFD /* Headers */,
+				BB2E63D007C5D8FD0312A55A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DependencyInjectorObjectMapper-tvOS";
+			productName = DependencyInjectorObjectMapper;
+			productReference = A3169DEF1DE0718900BABAFD /* DependencyInjectorObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3169DF61DE0718900BABAFD /* DependencyInjectorObjectMapperTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169E031DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapperTests-tvOS" */;
+			buildPhases = (
+				9681F03D4FE98D025A93F7D6 /* [CP] Check Pods Manifest.lock */,
+				A3169DF31DE0718900BABAFD /* Sources */,
+				A3169DF41DE0718900BABAFD /* Frameworks */,
+				A3169DF51DE0718900BABAFD /* Resources */,
+				07923DC1D5ADF68B80E5E0A7 /* [CP] Embed Pods Frameworks */,
+				A99EFD4C6A8724DE1A4B352A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3169DFA1DE0718900BABAFD /* PBXTargetDependency */,
+			);
+			name = "DependencyInjectorObjectMapperTests-tvOS";
+			productName = DependencyInjectorObjectMapperTests;
+			productReference = A3169DF71DE0718900BABAFD /* DependencyInjectorObjectMapperTests-tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3169E0B1DE072C700BABAFD /* DependencyInjectorObjectMapper-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169E1D1DE072C800BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-OSX" */;
+			buildPhases = (
+				88B7440E0B97C73A99D08DC6 /* [CP] Check Pods Manifest.lock */,
+				A3169E071DE072C700BABAFD /* Sources */,
+				A3169E081DE072C700BABAFD /* Frameworks */,
+				A3169E0A1DE072C700BABAFD /* Resources */,
+				A3169E231DE0732D00BABAFD /* Swiftlint */,
+				A3169E2A1DE07B3E00BABAFD /* Headers */,
+				935F0AB143735F362DAB60A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DependencyInjectorObjectMapper-OSX";
+			productName = DependencyInjectorObjectMapper;
+			productReference = A3169E0C1DE072C700BABAFD /* DependencyInjectorObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3169E131DE072C800BABAFD /* DependencyInjectorObjectMapperTests-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3169E201DE072C800BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapperTests-OSX" */;
+			buildPhases = (
+				FAD07F77079D312C65F35A43 /* [CP] Check Pods Manifest.lock */,
+				A3169E101DE072C800BABAFD /* Sources */,
+				A3169E111DE072C800BABAFD /* Frameworks */,
+				A3169E121DE072C800BABAFD /* Resources */,
+				4509C3C1D3021A0D63231112 /* [CP] Embed Pods Frameworks */,
+				79CB7F2CE8077C52911C205C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3169E171DE072C800BABAFD /* PBXTargetDependency */,
+			);
+			name = "DependencyInjectorObjectMapperTests-OSX";
+			productName = DependencyInjectorObjectMapperTests;
+			productReference = A3169E141DE072C800BABAFD /* DependencyInjectorObjectMapperTests-OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3169DA71DE05E8300BABAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Digipolitan;
+				TargetAttributes = {
+					A3169DAF1DE05E8300BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DB81DE05E8300BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DDD1DE06EF400BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DEE1DE0718900BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A3169DF61DE0718900BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+					A3169E0B1DE072C700BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A3169E131DE072C800BABAFD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 582762VK3P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3169DAA1DE05E8300BABAFD /* Build configuration list for PBXProject "DependencyInjectorObjectMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3169DA61DE05E8300BABAFD;
+			productRefGroup = A3169DB11DE05E8300BABAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3169DAF1DE05E8300BABAFD /* DependencyInjectorObjectMapper-iOS */,
+				A3169DB81DE05E8300BABAFD /* DependencyInjectorObjectMapperTests-iOS */,
+				A3169DDD1DE06EF400BABAFD /* DependencyInjectorObjectMapper-watchOS */,
+				A3169DEE1DE0718900BABAFD /* DependencyInjectorObjectMapper-tvOS */,
+				A3169DF61DE0718900BABAFD /* DependencyInjectorObjectMapperTests-tvOS */,
+				A3169E0B1DE072C700BABAFD /* DependencyInjectorObjectMapper-OSX */,
+				A3169E131DE072C800BABAFD /* DependencyInjectorObjectMapperTests-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3169DAE1DE05E8300BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DB71DE05E8300BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DDC1DE06EF400BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DED1DE0718900BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DF51DE0718900BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E0A1DE072C700BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E121DE072C800BABAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07923DC1D5ADF68B80E5E0A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DependencyInjector-tvOS/DependencyInjector.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DependencyInjector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1716FB48CC2E23EF9992E297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1878C08C021BB0E088329787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3035323519F70B6C3471ED57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4509C3C1D3021A0D63231112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DependencyInjector-macOS/DependencyInjector.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-macOS/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DependencyInjector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		518FCCCA103247684EE6B4FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DependencyInjector-iOS/DependencyInjector.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DependencyInjector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		689144F4E8B4413DD3103C96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CB7F2CE8077C52911C205C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B7440E0B97C73A99D08DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frameworks-DependencyInjectorObjectMapper-OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D0E894A109E2A38AE4F1A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frameworks-DependencyInjectorObjectMapper-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		935F0AB143735F362DAB60A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-OSX/Pods-Frameworks-DependencyInjectorObjectMapper-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9681F03D4FE98D025A93F7D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3169DD81DE0654400BABAFD /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		A3169DE71DE06FB300BABAFD /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		A3169E061DE0727A00BABAFD /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		A3169E231DE0732D00BABAFD /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		A99EFD4C6A8724DE1A4B352A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2E63D007C5D8FD0312A55A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46474C6C229B490F4E396C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90E9600949E92A399F856D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-iOS/Pods-Frameworks-DependencyInjectorObjectMapper-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD07F77079D312C65F35A43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3169DAB1DE05E8300BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA371F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3B8AA581F4ECE830086EFC2 /* Map+DependencyInjector.swift in Sources */,
+				A3B8AA3B1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
+				A3B8AA3F1F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DB51DE05E8300BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA481F4DCCB30086EFC2 /* Address.swift in Sources */,
+				A3B8AA541F4DCD170086EFC2 /* DefaultModule.swift in Sources */,
+				A3B8AA441F4DCCA90086EFC2 /* User.swift in Sources */,
+				A3B8AA4C1F4DCCBA0086EFC2 /* UserModel.swift in Sources */,
+				A38EF2CA1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */,
+				A3B8AA501F4DCD070086EFC2 /* AddressModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DD91DE06EF400BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA381F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3B8AA3C1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
+				A3B8AA401F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DEA1DE0718900BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA391F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3B8AA3D1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
+				A3B8AA411F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169DF31DE0718900BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA491F4DCCB30086EFC2 /* Address.swift in Sources */,
+				A3B8AA551F4DCD170086EFC2 /* DefaultModule.swift in Sources */,
+				A3B8AA451F4DCCA90086EFC2 /* User.swift in Sources */,
+				A3B8AA4D1F4DCCBA0086EFC2 /* UserModel.swift in Sources */,
+				A38EF2CB1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */,
+				A3B8AA511F4DCD070086EFC2 /* AddressModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E071DE072C700BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA3A1F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3B8AA3E1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
+				A3B8AA421F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3169E101DE072C800BABAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8AA4A1F4DCCB30086EFC2 /* Address.swift in Sources */,
+				A3B8AA561F4DCD170086EFC2 /* DefaultModule.swift in Sources */,
+				A3B8AA461F4DCCA90086EFC2 /* User.swift in Sources */,
+				A3B8AA4E1F4DCCBA0086EFC2 /* UserModel.swift in Sources */,
+				A38EF2CC1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */,
+				A3B8AA521F4DCD070086EFC2 /* AddressModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3169DBC1DE05E8300BABAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3169DAF1DE05E8300BABAFD /* DependencyInjectorObjectMapper-iOS */;
+			targetProxy = A3169DBB1DE05E8300BABAFD /* PBXContainerItemProxy */;
+		};
+		A3169DFA1DE0718900BABAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3169DEE1DE0718900BABAFD /* DependencyInjectorObjectMapper-tvOS */;
+			targetProxy = A3169DF91DE0718900BABAFD /* PBXContainerItemProxy */;
+		};
+		A3169E171DE072C800BABAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3169E0B1DE072C700BABAFD /* DependencyInjectorObjectMapper-OSX */;
+			targetProxy = A3169E161DE072C800BABAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3169DC21DE05E8300BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3169DC31DE05E8300BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3169DC51DE05E8300BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE74BE7527A9514D7AE75838 /* Pods-Frameworks-DependencyInjectorObjectMapper-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3169DC61DE05E8300BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DA6CC76A555CCF6A3C6210 /* Pods-Frameworks-DependencyInjectorObjectMapper-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3169DC81DE05E8300BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3781EF40D354030A6E0F2336 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DependencyInjectorObjectMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3169DC91DE05E8300BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9608F15704DFB1C62767D1 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DependencyInjectorObjectMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3169DE41DE06EF400BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46ADDB3B707B00AAF6FF249 /* Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A3169DE51DE06EF400BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18E67EAE1AEE9769488B8D8 /* Pods-Frameworks-DependencyInjectorObjectMapper-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A3169E011DE0718900BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121CE63DEA1F9F7BE34F7C2A /* Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A3169E021DE0718900BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6871BB3B9AAE11FBF9EAAD28 /* Pods-Frameworks-DependencyInjectorObjectMapper-tvOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		A3169E041DE0718900BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C3B8F6A46232CBE82D7AB9 /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DependencyInjectorObjectMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A3169E051DE0718900BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFFB4E5C4127E4A95CF710E /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DependencyInjectorObjectMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A3169E1E1DE072C800BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4280FEB351FF923C8F7D6B /* Pods-Frameworks-DependencyInjectorObjectMapper-OSX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3169E1F1DE072C800BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D470D1C287AF42A642C10C6B /* Pods-Frameworks-DependencyInjectorObjectMapper-OSX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.dependencyinjector.objectmapper;
+				PRODUCT_NAME = DependencyInjectorObjectMapper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3169E211DE072C800BABAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93CCF480FC175F07743D64A /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DependencyInjectorObjectMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3169E221DE072C800BABAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA019E8C38EC9FB3647284BD /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582762VK3P;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digipolitan.DependencyInjectorObjectMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3169DAA1DE05E8300BABAFD /* Build configuration list for PBXProject "DependencyInjectorObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DC21DE05E8300BABAFD /* Debug */,
+				A3169DC31DE05E8300BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169DC41DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DC51DE05E8300BABAFD /* Debug */,
+				A3169DC61DE05E8300BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169DC71DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapperTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DC81DE05E8300BABAFD /* Debug */,
+				A3169DC91DE05E8300BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169DE31DE06EF400BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169DE41DE06EF400BABAFD /* Debug */,
+				A3169DE51DE06EF400BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169E001DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169E011DE0718900BABAFD /* Debug */,
+				A3169E021DE0718900BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169E031DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapperTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169E041DE0718900BABAFD /* Debug */,
+				A3169E051DE0718900BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169E1D1DE072C800BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapper-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169E1E1DE072C800BABAFD /* Debug */,
+				A3169E1F1DE072C800BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3169E201DE072C800BABAFD /* Build configuration list for PBXNativeTarget "DependencyInjectorObjectMapperTests-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3169E211DE072C800BABAFD /* Debug */,
+				A3169E221DE072C800BABAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3169DA71DE05E8300BABAFD /* Project object */;
+}
