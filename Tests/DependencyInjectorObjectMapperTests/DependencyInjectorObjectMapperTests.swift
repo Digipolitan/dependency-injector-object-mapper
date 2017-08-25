@@ -18,13 +18,15 @@ class DependencyInjectorObjectMapperTests: XCTestCase {
         let injector = Injector.default
         let user = try? injector.inject(User.self, arguments: [
             "id": "1",
-            "address": [
-                "street": "abc",
-                "zipCode": "75116",
-                "country": "France"
+            "addresses": [
+                [
+                    "street": "abc",
+                    "zipCode": "75116",
+                    "country": "France"
+                ]
             ]
         ])
-        XCTAssertNotNil(user?.address)
+        XCTAssertNotNil(user?.addresses)
     }
 
     func testReverseTransformInjectNestedObject() {
@@ -36,12 +38,14 @@ class DependencyInjectorObjectMapperTests: XCTestCase {
         ]
         let user = try? injector.inject(User.self, arguments: [
             "id": "1",
-            "address": dict
+            "addresses": [
+                dict
+            ]
         ])
-        guard let trans = user?.address.toJSON() else {
+        guard let addresses = user?.addresses else {
             XCTFail("The dictionary cannot be nil")
             return
         }
-        XCTAssertEqual(trans.map { $0.key }, dict.map { $0.key })
+        XCTAssertEqual(addresses[0].street, "abc")
     }
 }
