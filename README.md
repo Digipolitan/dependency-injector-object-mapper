@@ -57,7 +57,7 @@ class UserModel: User, Mappable {
     public convenience required init?(map: Map) {
         guard
             let id: String = try? map.value("id"),
-            let address: Address = try? map.injectedValue("address") else {
+            let address: Address = try? map.injectedValue("address", type: Address.self) else {
                 return nil
         }
         self.init(id: id, address: address)
@@ -66,7 +66,7 @@ class UserModel: User, Mappable {
     public func mapping(map: Map) {
         self.id >>> map["id"]
         self.created <- map["createdAt"]
-        self.address >>> map.inject("address")
+        self.address >>> map.inject("address", type: Address.self)
     }
 }
 
