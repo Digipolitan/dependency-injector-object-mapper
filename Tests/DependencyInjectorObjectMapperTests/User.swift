@@ -12,5 +12,5 @@ import ObjectMapper
 public protocol User: BaseMappable {
     var id: String { get set }
     var created: Date? { get set }
-    var address: Address { get set }
+    var addresses: [Address] { get set }
 }

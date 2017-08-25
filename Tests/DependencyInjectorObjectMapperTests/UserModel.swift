@@ -13,25 +13,35 @@ import DependencyInjectorObjectMapper
 class UserModel: User, Mappable {
     public var id: String
     public var created: Date?
-    public var address: Address
+    public var addresses: [Address]
 
-    public init(id: String, address: Address) {
+    public init(id: String, addresses: [Address]) {
         self.id = id
-        self.address = address
+        self.addresses = addresses
     }
 
-    public convenience required init?(map: Map) {
+    public required init?(map: Map) {
         guard
             let id: String = try? map.value("id"),
-            let address: Address = try? map.injectedValue("address") else {
+            let addresses: [Address] = try? map.injectedValue("addresses", type: Address.self) else {
                 return nil
         }
-        self.init(id: id, address: address)
+        self.id = id
+        self.addresses = addresses
     }
 
     public func mapping(map: Map) {
         self.id >>> map["id"]
         self.created <- map["createdAt"]
-        self.address >>> map.inject("address")
+        self.addresses >>> map.inject("addresses", type: Address.self)
+    }
+}
+
+class Sample: UserModel {
+    public let sample: String
+
+    public required init?(map: Map) {
+        self.sample = ""
+        super.init(map: map)
     }
 }
