@@ -22,17 +22,16 @@ class UserModel: User, Mappable {
 
     public required init?(map: Map) {
         guard
-            let id: String = try? map.value("id"),
-            let addresses: [Address] = try? map.injectedValue("addresses", type: Address.self) else {
+            let id: String = try? map.value("id") else {
                 return nil
         }
         self.id = id
-        self.addresses = addresses
+        self.addresses = (try? map.injectedValue("addresses", type: Address.self)) ?? []
     }
 
     public func mapping(map: Map) {
         self.id >>> map["id"]
-        self.created <- map["createdAt"]
+        self.created <- (map["createdAt"], DateTransform())
         self.addresses >>> map.inject("addresses", type: Address.self)
     }
 }

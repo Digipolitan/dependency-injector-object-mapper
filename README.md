@@ -2,9 +2,9 @@ DependencyInjector+ObjectMapper
 =================================
 
 [![Build Status](https://travis-ci.org/Digipolitan/dependency-injector-object-mapper-swift.svg?branch=master)](https://travis-ci.org/Digipolitan/dependency-injector-object-mapper-swift)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/DependencyInjector_ObjectMapper.svg)](https://img.shields.io/cocoapods/v/DependencyInjector_ObjectMapper.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/DependencyInjectorObjectMapper.svg)](https://img.shields.io/cocoapods/v/DependencyInjectorObjectMapper.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/DependencyInjector_ObjectMapper.svg?style=flat)](http://cocoadocs.org/docsets/DependencyInjector_ObjectMapper)
+[![Platform](https://img.shields.io/cocoapods/p/DependencyInjectorObjectMapper.svg?style=flat)](http://cocoadocs.org/docsets/DependencyInjectorObjectMapper)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
 Dependency injector Swift compatible with ObjectMapper
@@ -65,7 +65,7 @@ class UserModel: User, Mappable {
 
     public func mapping(map: Map) {
         self.id >>> map["id"]
-        self.created <- map["createdAt"]
+        self.created <- (map["createdAt"], DateTransform())
         self.address >>> map.inject("address", type: Address.self)
     }
 }
