@@ -19,22 +19,4 @@ public extension Provider {
             return nil
         }
     }
-
-    public convenience init(type: Mappable.Type) {
-        self.init { (_, arguments) -> T? in
-            if let res = type.init(map: Map(mappingType: .fromJSON, JSON: arguments ?? [:])) as? T {
-                return res
-            }
-            return nil
-        }
-    }
-
-    public convenience init(type: ImmutableMappable.Type) {
-        self.init { (_, arguments) throws -> T? in
-            if let res = try type.init(map: Map(mappingType: .fromJSON, JSON: arguments ?? [:])) as? T {
-                return res
-            }
-            return nil
-        }
-    }
 }

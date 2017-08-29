@@ -21,6 +21,9 @@
 		A38EF2CA1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */; };
 		A38EF2CB1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */; };
 		A38EF2CC1DECF97000637484 /* DependencyInjectorObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DependencyInjectorObjectMapperTests.swift */; };
+		A3924B971F55A32400CBA3CD /* Map+DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA571F4ECE830086EFC2 /* Map+DependencyInjector.swift */; };
+		A3924B981F55A32400CBA3CD /* Map+DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA571F4ECE830086EFC2 /* Map+DependencyInjector.swift */; };
+		A3924B991F55A32500CBA3CD /* Map+DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA571F4ECE830086EFC2 /* Map+DependencyInjector.swift */; };
 		A3B8AA371F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
 		A3B8AA381F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
 		A3B8AA391F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8AA341F4DCBB90086EFC2 /* Binder+ObjectMapper.swift */; };
@@ -971,6 +974,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B8AA381F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3924B971F55A32400CBA3CD /* Map+DependencyInjector.swift in Sources */,
 				A3B8AA3C1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
 				A3B8AA401F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
 			);
@@ -981,6 +985,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B8AA391F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3924B981F55A32400CBA3CD /* Map+DependencyInjector.swift in Sources */,
 				A3B8AA3D1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
 				A3B8AA411F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
 			);
@@ -1004,6 +1009,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B8AA3A1F4DCBB90086EFC2 /* Binder+ObjectMapper.swift in Sources */,
+				A3924B991F55A32500CBA3CD /* Map+DependencyInjector.swift in Sources */,
 				A3B8AA3E1F4DCBB90086EFC2 /* InjectorTransformer.swift in Sources */,
 				A3B8AA421F4DCBB90086EFC2 /* Provider+ObjectMapper.swift in Sources */,
 			);

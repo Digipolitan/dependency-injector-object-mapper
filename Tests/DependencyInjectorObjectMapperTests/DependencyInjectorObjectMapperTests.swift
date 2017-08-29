@@ -29,6 +29,16 @@ class DependencyInjectorObjectMapperTests: XCTestCase {
         XCTAssertNotNil(user?.addresses)
     }
 
+    func testInitWithTransformer() {
+        let injector = Injector.default
+        let date = Date()
+        let user = try? injector.inject(User.self, arguments: [
+            "id": "1",
+            "createdAt": date.timeIntervalSince1970
+            ])
+        XCTAssertEqual(user?.created?.timeIntervalSince1970, date.timeIntervalSince1970)
+    }
+
     func testReverseTransformInjectNestedObject() {
         let injector = Injector.default
         let dict: [String: Any] = [
