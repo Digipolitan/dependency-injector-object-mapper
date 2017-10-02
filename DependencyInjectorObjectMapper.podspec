@@ -12,6 +12,6 @@ s.watchos.deployment_target = '2.0'
 s.tvos.deployment_target = '9.0'
 s.osx.deployment_target = '10.10'
 s.requires_arc = true
-s.dependency 'DependencyInjector', '~> 2.0'
-s.dependency 'ObjectMapper', '~> 2.0'
+s.dependency 'DependencyInjector', '~> 2.1'
+s.dependency 'ObjectMapper', '~> 3.0'
 end
