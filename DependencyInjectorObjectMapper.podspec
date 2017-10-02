@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "DependencyInjectorObjectMapper"
-s.version = "1.0.1"
+s.version = "1.0.2"
 s.summary = "Add Mappable support with dependency injection"
 s.homepage = "https://github.com/Digipolitan/dependency-injector-object-mapper"
 s.authors = "Digipolitan"
