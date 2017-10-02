@@ -28,7 +28,7 @@ end
 abstract_target 'Tests' do
 	use_frameworks!
 
-	pod 'DependencyInjector', '~> 2.0'
+	pod 'DependencyInjector', '~> 2.1'
 	pod 'ObjectMapper', '~> 3.0'
 
 	target 'DependencyInjectorObjectMapperTests-iOS' do
@@ -48,7 +48,7 @@ end
 abstract_target 'Samples' do
 	use_frameworks!
 
-	pod 'DependencyInjector', '~> 2.0'
+	pod 'DependencyInjector', '~> 2.1'
 	pod 'ObjectMapper', '~> 3.0'
 
 	target 'DependencyInjectorObjectMapperSample-iOS' do
