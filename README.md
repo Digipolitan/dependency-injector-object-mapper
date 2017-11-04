@@ -39,7 +39,7 @@ $ brew install carthage
 To integrate DependencyInjector+ObjectMapper into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```
-github 'Digipolitan/DependencyInjectorObjectMapper' ~> 4.5
+github 'Digipolitan/dependency-injector-object-mapper' ~> 1.0
 ```
 
 Run `carthage update` to build the framework and drag the built `DependencyInjectorObjectMapper.framework` into your Xcode project.
