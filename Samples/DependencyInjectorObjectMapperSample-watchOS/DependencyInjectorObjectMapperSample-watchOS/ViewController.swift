@@ -11,9 +11,4 @@ import DependencyInjectorObjectMapper
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let t = TemplateClass()
-        print("iOS \(t)")
-    }
 }

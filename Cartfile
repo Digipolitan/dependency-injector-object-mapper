@@ -1,2 +1,2 @@
-github 'Digipolitan/DependencyInjector' ~> 2.1
+github 'Digipolitan/dependency-injector' ~> 2.1
 github 'Hearst-DD/ObjectMapper' ~> 3.0

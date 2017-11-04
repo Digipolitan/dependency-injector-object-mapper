@@ -56,7 +56,7 @@ public class InjectorTransformer<BM>: TransformType {
         return try? injector.inject(BM.self)
     }
 
-    public func transformToJSON(_ value: BM?) -> [String : Any]? {
+    public func transformToJSON(_ value: BM?) -> [String: Any]? {
         if let mappable = value as? BaseMappable {
             return mappable.toJSON()
         }
