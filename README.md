@@ -52,7 +52,7 @@ Once you have your Swift package set up, adding DependencyInjector+ObjectMapper 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Digipolitan/DependencyInjectorObjectMapper.git", from: "1.0.0")
+    .package(url: "https://github.com/Digipolitan/dependency-injector-object-mapper.git", from: "1.0.0")
 ]
 ```
 
