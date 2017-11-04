@@ -1213,7 +1213,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3781EF40D354030A6E0F2336 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1227,7 +1226,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD9608F15704DFB1C62767D1 /* Pods-Tests-DependencyInjectorObjectMapperTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1333,7 +1331,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C3B8F6A46232CBE82D7AB9 /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1349,7 +1346,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFFFB4E5C4127E4A95CF710E /* Pods-Tests-DependencyInjectorObjectMapperTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1412,7 +1408,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A93CCF480FC175F07743D64A /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1429,7 +1424,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA019E8C38EC9FB3647284BD /* Pods-Tests-DependencyInjectorObjectMapperTests-OSX.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
