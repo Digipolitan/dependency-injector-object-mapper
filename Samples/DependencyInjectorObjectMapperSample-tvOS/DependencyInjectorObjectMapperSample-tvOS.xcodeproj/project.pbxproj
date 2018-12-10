@@ -129,7 +129,6 @@
 				A30D648A1E0D7B2A00A3CE45 /* Resources */,
 				A30D64A11E0D7BA200A3CE45 /* Embed Frameworks */,
 				6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */,
-				7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +152,7 @@
 					A30D648B1E0D7B2A00A3CE45 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -194,7 +194,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DependencyInjector-tvOS/DependencyInjector.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
 			);
@@ -205,22 +205,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS/Pods-Samples-DependencyInjectorObjectMapperSample-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */ = {
@@ -376,6 +361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.DependencyInjectorObjectMapperSample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -391,6 +377,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.DependencyInjectorObjectMapperSample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;

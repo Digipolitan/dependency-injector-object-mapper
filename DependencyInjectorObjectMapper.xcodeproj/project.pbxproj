@@ -339,7 +339,6 @@
 				A3169DAE1DE05E8300BABAFD /* Resources */,
 				A3169DD81DE0654400BABAFD /* Swiftlint */,
 				A3169E631DE0804300BABAFD /* Headers */,
-				F90E9600949E92A399F856D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,7 +358,6 @@
 				A3169DB61DE05E8300BABAFD /* Frameworks */,
 				A3169DB71DE05E8300BABAFD /* Resources */,
 				518FCCCA103247684EE6B4FE /* [CP] Embed Pods Frameworks */,
-				E46474C6C229B490F4E396C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,7 +379,6 @@
 				A3169DDC1DE06EF400BABAFD /* Resources */,
 				A3169DE71DE06FB300BABAFD /* Swiftlint */,
 				A3169E651DE0804D00BABAFD /* Headers */,
-				689144F4E8B4413DD3103C96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -402,7 +399,6 @@
 				A3169DED1DE0718900BABAFD /* Resources */,
 				A3169E061DE0727A00BABAFD /* Swiftlint */,
 				A3169E281DE07B0500BABAFD /* Headers */,
-				BB2E63D007C5D8FD0312A55A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -422,7 +418,6 @@
 				A3169DF41DE0718900BABAFD /* Frameworks */,
 				A3169DF51DE0718900BABAFD /* Resources */,
 				07923DC1D5ADF68B80E5E0A7 /* [CP] Embed Pods Frameworks */,
-				A99EFD4C6A8724DE1A4B352A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,7 +439,6 @@
 				A3169E0A1DE072C700BABAFD /* Resources */,
 				A3169E231DE0732D00BABAFD /* Swiftlint */,
 				A3169E2A1DE07B3E00BABAFD /* Headers */,
-				935F0AB143735F362DAB60A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -464,7 +458,6 @@
 				A3169E111DE072C800BABAFD /* Frameworks */,
 				A3169E121DE072C800BABAFD /* Resources */,
 				4509C3C1D3021A0D63231112 /* [CP] Embed Pods Frameworks */,
-				79CB7F2CE8077C52911C205C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -489,12 +482,13 @@
 					A3169DAF1DE05E8300BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DB81DE05E8300BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DDD1DE06EF400BABAFD = {
@@ -609,7 +603,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DependencyInjector-tvOS/DependencyInjector.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-tvOS/ObjectMapper.framework",
 			);
@@ -620,7 +614,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1716FB48CC2E23EF9992E297 /* [CP] Check Pods Manifest.lock */ = {
@@ -683,7 +677,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DependencyInjector-macOS/DependencyInjector.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-macOS/ObjectMapper.framework",
 			);
@@ -694,7 +688,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		518FCCCA103247684EE6B4FE /* [CP] Embed Pods Frameworks */ = {
@@ -703,7 +697,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DependencyInjector-iOS/DependencyInjector.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
 			);
@@ -714,37 +708,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		689144F4E8B4413DD3103C96 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS/Pods-Frameworks-DependencyInjectorObjectMapper-watchOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79CB7F2CE8077C52911C205C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-OSX/Pods-Tests-DependencyInjectorObjectMapperTests-OSX-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		88B7440E0B97C73A99D08DC6 /* [CP] Check Pods Manifest.lock */ = {
@@ -781,21 +745,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		935F0AB143735F362DAB60A6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-OSX/Pods-Frameworks-DependencyInjectorObjectMapper-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9681F03D4FE98D025A93F7D6 /* [CP] Check Pods Manifest.lock */ = {
@@ -871,66 +820,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		A99EFD4C6A8724DE1A4B352A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS/Pods-Tests-DependencyInjectorObjectMapperTests-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB2E63D007C5D8FD0312A55A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS/Pods-Frameworks-DependencyInjectorObjectMapper-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E46474C6C229B490F4E396C3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DependencyInjectorObjectMapperTests-iOS/Pods-Tests-DependencyInjectorObjectMapperTests-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F90E9600949E92A399F856D8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DependencyInjectorObjectMapper-iOS/Pods-Frameworks-DependencyInjectorObjectMapper-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		FAD07F77079D312C65F35A43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1110,7 +999,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1162,7 +1051,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

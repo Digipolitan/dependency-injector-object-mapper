@@ -8,8 +8,8 @@ let package = Package(
         .library(name: "DependencyInjectorObjectMapper", targets: ["DependencyInjectorObjectMapper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Digipolitan/dependency-injector.git", from: "2.0.0"),
-        .package(url: "https://github.com/Hearst-DD/ObjectMapper.git", from: "3.0.0")
+        .package(url: "https://github.com/Digipolitan/dependency-injector.git", from: "2.2.0"),
+        .package(url: "https://github.com/Hearst-DD/ObjectMapper.git", from: "3.4.0")
     ],
     targets: [
         .target(

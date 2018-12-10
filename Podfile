@@ -1,11 +1,12 @@
 workspace 'DependencyInjectorObjectMapper.xcworkspace'
 
+use_frameworks!
+
+pod 'DependencyInjector', '~> 2.2'
+pod 'ObjectMapper', '~> 3.4'
+
 ## Frameworks targets
 abstract_target 'Frameworks' do
-	use_frameworks!
-
-	pod 'DependencyInjector', '~> 2.1'
-	pod 'ObjectMapper', '~> 3.0'
 
 	target 'DependencyInjectorObjectMapper-iOS' do
 		platform :ios, '8.0'
@@ -26,10 +27,6 @@ end
 
 ## Tests targets
 abstract_target 'Tests' do
-	use_frameworks!
-
-	pod 'DependencyInjector', '~> 2.1'
-	pod 'ObjectMapper', '~> 3.0'
 
 	target 'DependencyInjectorObjectMapperTests-iOS' do
 		platform :ios, '8.0'
@@ -46,10 +43,6 @@ end
 
 ## Samples targets
 abstract_target 'Samples' do
-	use_frameworks!
-
-	pod 'DependencyInjector', '~> 2.1'
-	pod 'ObjectMapper', '~> 3.0'
 
 	target 'DependencyInjectorObjectMapperSample-iOS' do
 		project 'Samples/DependencyInjectorObjectMapperSample-iOS/DependencyInjectorObjectMapperSample-iOS'
