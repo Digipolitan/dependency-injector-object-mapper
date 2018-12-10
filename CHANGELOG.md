@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.4](https://github.com/Digipolitan/dependency-injector-object-mapper/releases/tag/v1.0.4)
+
+update swift 4.2
+
+---
+
 ## [1.0.3](https://github.com/Digipolitan/dependency-injector-object-mapper/releases/tag/v1.0.3)
 
 remove pod warning
