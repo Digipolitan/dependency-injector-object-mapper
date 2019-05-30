@@ -11,7 +11,7 @@ import ObjectMapper
 
 public extension Provider {
 
-    public convenience init(type: BaseMappable.Type) {
+    convenience init(type: BaseMappable.Type) {
         self.init { (_, arguments) -> T? in
             if let res = type.init(JSON: arguments ?? [:]) as? T {
                 return res

@@ -12,17 +12,17 @@ import ObjectMapper
 public extension Binder {
 
     @discardableResult
-    public func to(_ type: Mappable.Type) -> Self {
+    func to(_ type: Mappable.Type) -> Self {
         return self.to(Provider(type: type))
     }
 
     @discardableResult
-    public func to(_ type: BaseMappable.Type) -> Self {
+    func to(_ type: BaseMappable.Type) -> Self {
         return self.to(Provider(type: type))
     }
 
     @discardableResult
-    public func to(_ type: ImmutableMappable.Type) -> Self {
+    func to(_ type: ImmutableMappable.Type) -> Self {
         return self.to(Provider(type: type))
     }
 }
