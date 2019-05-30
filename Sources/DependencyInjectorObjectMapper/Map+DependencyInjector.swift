@@ -10,15 +10,15 @@ import ObjectMapper
 
 public extension Map {
 
-    public func injectedValue<BM>(_ key: String, type: BM.Type) throws -> BM {
+    func injectedValue<BM>(_ key: String, type: BM.Type) throws -> BM {
         return try self.value(key, using: InjectorTransformerRegistry.default.get(type))
     }
 
-    public func injectedValue<BM>(_ key: String, type: BM.Type) throws -> [BM] {
+    func injectedValue<BM>(_ key: String, type: BM.Type) throws -> [BM] {
         return try self.value(key, using: InjectorTransformerRegistry.default.get(type))
     }
 
-    public func inject<BM>(_ key: String, type: BM.Type) -> (Map, InjectorTransformer<BM>) {
+    func inject<BM>(_ key: String, type: BM.Type) -> (Map, InjectorTransformer<BM>) {
         return (self[key], InjectorTransformerRegistry.default.get(type))
     }
 }
