@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.6](https://github.com/Digipolitan/dependency-injector-object-mapper/releases/tag/v1.0.6)
+
+fix build error
+
+---
+
 ## [1.0.5](https://github.com/Digipolitan/dependency-injector-object-mapper/releases/tag/v1.0.5)
 
 swift 5 support
