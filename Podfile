@@ -2,12 +2,12 @@ workspace 'DependencyInjectorObjectMapper.xcworkspace'
 
 use_frameworks!
 
-pod 'DependencyInjector', '~> 2.2'
-pod 'ObjectMapper', '~> 3.4', :inhibit_warnings => true
-
 ## Frameworks targets
 abstract_target 'Frameworks' do
 
+	pod 'DependencyInjector', '~> 2.2'
+	pod 'ObjectMapper', '~> 3.4', :inhibit_warnings => true
+	
 	target 'DependencyInjectorObjectMapper-iOS' do
 		platform :ios, '8.0'
 	end

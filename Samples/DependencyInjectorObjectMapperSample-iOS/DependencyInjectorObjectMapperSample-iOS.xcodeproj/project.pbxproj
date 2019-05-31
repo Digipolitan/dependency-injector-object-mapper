@@ -126,7 +126,6 @@
 				A30D63EB1E0D717E00A3CE45 /* Frameworks */,
 				A30D63EC1E0D717E00A3CE45 /* Resources */,
 				A30D640C1E0D71CB00A3CE45 /* Embed Frameworks */,
-				761B88D2861272099C580E2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,26 +186,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		761B88D2861272099C580E2F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-iOS/Pods-Samples-DependencyInjectorObjectMapperSample-iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DependencyInjector-iOS/DependencyInjector.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DependencyInjector.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-DependencyInjectorObjectMapperSample-iOS/Pods-Samples-DependencyInjectorObjectMapperSample-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		986B8F2F5A04B5574D6124D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
